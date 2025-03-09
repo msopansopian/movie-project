@@ -1,0 +1,208 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./img/movie.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+  }
+  
+  * {
+    font-family: lato, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  .container-login {
+    max-width: 529px;
+    gap: 10px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: #181a1cd6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    width: 163px;
+    height: 44px;
+    gap: 4px;
+    background-image: url(./img/logo.png);
+    background-size: cover;
+    margin-top: 10;
+  }
+  
+  .masuk {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  .p-selamat {
+    margin-top: -10px;
+  }
+  .container-username {
+    margin-top: 15px;
+  }
+  .container-password {
+    margin-top: 15px;
+  }
+  .l-username {
+    display: flex;
+  }
+  
+  .i-username {
+    width: 100%;
+    height: 35px;
+    border-radius: 16px;
+    background-color: #181a1cd6;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .l-password {
+    display: flex;
+    gap: 12px;
+  }
+  .i-password {
+    width: 100%;
+    height: 35px;
+    border-radius: 16px;
+    background-color: #181a1cd6;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .mata {
+    float: right;
+    margin-right: 10px;
+    margin-top: -28px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  .belum-punya-akun {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    float: left;
+  }
+  
+  .lupa-sandi {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  
+    font-weight: bolder;
+    float: right;
+  }
+  
+  /* daftar */
+  .container-konfirmasi {
+    margin-top: 15px;
+  }
+  .l-konfirmasi {
+    display: flex;
+    gap: 12px;
+  }
+  .i-konfirmasi {
+    width: 100%;
+    height: 35px;
+    border-radius: 16px;
+    background-color: #181a1cd6;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .button-masuk {
+    padding: 10px;
+    background-color: #181a1cd6;
+    width: 450px;
+    border-radius: 16px;
+  }
+  .center {
+    text-align: center;
+  }
+  
+  .css-rce0rb-unf-btn::before {
+    background-image: url(https://assets.tokopedia.net/assets-tokopedia-lite/v2/zeus/kratos/50524134.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 110px;
+  }
+  
+  .css-rce0rb-unf-btn {
+    background-color: #181a1cd6;
+    border-radius: 16px;
+    cursor: pointer;
+  
+    height: 40px;
+    line-height: 20px;
+    outline: none;
+    position: relative;
+    padding: 0px 16px;
+    text-indent: initial;
+    transition: background-color 300ms;
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 16px;
+  }
+  
+  /* responsive */
+  @media (max-width: 576px) {
+    .container-beranda {
+      padding: 10px;
+    }
+  
+    .container-header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .button-masuk {
+      width: 100%;
+    }
+  
+    .css-rce0rb-unf-btn::before {
+      background-image: url(https://assets.tokopedia.net/assets-tokopedia-lite/v2/zeus/kratos/50524134.svg);
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      content: "";
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      left: 15%;
+    }
+  }
+  
